@@ -82,7 +82,7 @@ body {
     text-decoration: none;
     letter-spacing: 0.15em;
     display: inline-block;
-    padding: 15px 20px;
+    padding: 1rem 1.5rem;
     position: relative;
   }
  
@@ -114,7 +114,7 @@ a {
   transition: color 0.3s ease;
 }
 
-a:not(.navbar-brand,.nav-link,.mr-4,.btn):hover {
+a:not(.navbar-brand,.nav-link,.btn):hover {
   color: green;
 }
 
@@ -280,6 +280,27 @@ footer {
   display: flex;
   column-gap: 10rem;
   justify-content: center;
+}
+
+@media (max-width:957px){
+  *:not(.img-text){
+    font-size: small;
+  }
+
+  .img-text {
+    background-color: #7fb7a29c;
+    color: white;
+    font-size: 1rem;
+    padding: 0.3rem 0.6rem;
+  }
+  .productos_icon {
+    opacity: 1;
+    display: block;
+    width: 5rem;
+    height: 8rem;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
 }
 
 @media (max-width:650px){
