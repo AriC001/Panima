@@ -18,6 +18,84 @@ body {
   overflow-x: hidden;
   color: #607289;
 }
+
+/* PRODUCTOS */
+.titulo-productos{
+  margin: 4rem 2rem 1rem 8rem;
+  /* padding-bottom:; */
+}
+
+.productos {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 5rem 0 1rem;
+  margin: 0rem 0 0rem 0;
+}
+
+.img-container {
+  position: relative;
+}
+
+.productos_icon {
+  opacity: 1;
+  display: block;
+  width: 10rem;
+  height: 11rem;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  
+  /* border: 3px solid black */
+}
+
+.center-img-text {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.img-container:hover .productos_icon {
+  opacity: 0.3;
+}
+
+.img-container:hover .center-img-text {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.img-text {
+  background-color: #7fb7a29c;
+  color: white;
+  font-size: 0.9rem;
+  padding: 0.5rem 1rem;
+}
+
+.more-products{
+    color: #607289;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 0.15em;
+    display: inline-block;
+    padding: 15px 20px;
+    position: relative;
+  }
+ 
+
+/* FIN PRODUCTOS */
+
+.separador{
+  margin: 2rem 6rem 2rem 6rem;
+  color: green;
+  border-width: 0.2rem;
+}
+
+
   
 h5 {
   font-size: 1rem;
@@ -27,6 +105,7 @@ h5 {
   color: #030929;
 }
   
+/* A ANIMACION */
 a {
   font-weight: 500;
   text-decoration: none;
@@ -34,11 +113,28 @@ a {
   color: #232323;
   transition: color 0.3s ease;
 }
-  
-a:hover {
-  text-decoration: none;
+
+a:not(.navbar-brand,.nav-link,.mr-4,.btn):hover {
   color: green;
 }
+
+a:not(.navbar-brand,.nav-link,.mr-4,.btn):after {    
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: green;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+a:not(.navbar-brand,.nav-link,.mr-4,.btn):hover:after{ 
+  width: 100%; 
+  left: 0; 
+}
+/* FIN A */
 
 /*Direccion*/
 .direccion {
@@ -59,6 +155,7 @@ a:hover {
 .direccion_info_ttl {
     font-weight: 600;
 }
+/* FIN DIRECCIÓN */
 
 /* Formularios */
 .form_section {
