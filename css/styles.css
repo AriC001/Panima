@@ -20,12 +20,17 @@ body {
 }
 
 /* PRODUCTOS */
+.productos-index {
+  background-color: #83F683;
+  color: #FFFFFF;
+}
+
 .titulo-productos{
   margin: 4rem 2rem 1rem 8rem;
   /* padding-bottom:; */
 }
 
-.productos {
+.productos-index {
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -77,7 +82,7 @@ body {
 }
 
 .more-products{
-    color: #607289;
+    color: #FFFFFF;
     text-transform: uppercase;
     text-decoration: none;
     letter-spacing: 0.15em;
@@ -153,7 +158,8 @@ a:not(.navbar-brand,.nav-link,.mr-4,.btn):hover:after{
 }
 
 .direccion_info_ttl {
-    font-weight: 600;
+    font-weight: 700;
+    color: #83F683;
 }
 /* FIN DIRECCIÓN */
 
