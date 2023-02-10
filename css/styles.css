@@ -265,10 +265,14 @@ a:not(.navbar-brand,.nav-link,.mr-4,.btn):hover:after{
 }
 
 .label-input2{
-  margin-top: 2rem;
+  /* margin-top: 2rem; */
   margin-left: 5rem;
 }
 
+#emailCvWarning{
+  margin-top: 2rem;
+  margin-left: 5rem;
+}
 
 #myFile{
   margin: 5rem;

@@ -117,9 +117,10 @@
               <buttom class="bt-style" id="">Trabajá con Nosotros</buttom>
               <buttom id="bt-contacto2" class="bt-style">Contacto</buttom>
           </div>
+            <p id="emailCvWarning">Escriba su email para poder subir su CV</p>
             <label class="label-input2" for="name">Email</label>
             <input id="cv-email" type="email" class="short-text" name="name" required><br>
-           <div id="cvFiles">
+           <div id="cvFiles" style="visibility: hidden;">
                 <label class="label-input2" for="filename">Dejanos tu CV aquí en formato PDF o Word (unico archivo)</label>
                 <input type="file" class="myFile" id="myFile" name="myFile" accept=".pdf,.doc,.docx" onchange="fileHandler(event)"> 
            </div>

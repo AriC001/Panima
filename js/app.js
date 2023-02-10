@@ -51,6 +51,21 @@ let fileHandler = function(e){
   reader.readAsDataURL(file);
 }
 
+
+const emailInput = document.querySelector('#cv-email');
+let i = 0;
+emailInput.addEventListener('input', (event) => {
+  // console.log(i++);
+  if(i > 4){
+    document.querySelector('#cvFiles').style.visibility = "visible"
+    document.querySelector('#emailCvWarning').style.display = "none"
+  }
+  
+});
+
+
+
+
 function algo(){
   console.log("AAA")
 }
