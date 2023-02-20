@@ -55,7 +55,7 @@ let fileHandler = function(e){
 const emailInput = document.querySelector('#cv-email');
 let i = 0;
 emailInput.addEventListener('input', (event) => {
-  // console.log(i++);
+  i++;
   if(i > 4){
     document.querySelector('#cvFiles').style.visibility = "visible"
     document.querySelector('#emailCvWarning').style.display = "none"
