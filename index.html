@@ -14,7 +14,9 @@
 
     <nav class="navbar navbar-expand-lg navbar-dark">
         <div class="container-fluid">
-            <a class="navbar-brand" href="" onclick="window.reload(true);">LOGO</a>
+            <a class="navbar-brand"  href="" onclick="window.reload(true);">
+              <img class="navbar-logo" src="./img/panimagroup-logo-grande-verde.png" alt="">
+            </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -28,7 +30,7 @@
                       <a class="nav-link" href="./productos.html">Productos</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#ubicacion" >Ubicación</a>
+                    <a class="nav-link" href="#ubicacion">Ubicación</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="#contacto">Contacto</a>
@@ -38,10 +40,20 @@
         </div>
     </nav>
 
-    <h2 class="titulo-productos">Nosotros</h2>
-    <hr class="separador">
+    <section class="flyer-carousel-section">
 
-     <section class="productos-index">
+    </section>
+
+    <section class="nosotros-section">
+      <div class="nosotros-texto-section">
+        <h2 class="titulo-productos">Nosotros</h2>
+        <p class="nosotros-parrafo">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+      </div>
+    </section>
+
+    <section class="productos-index-section">
+      <hr class="separador">
         <h2 class="titulo-productos">Especialidades</h2>
         <section class="productos-index" id="productos-inicio">
         <div class="img-container">
@@ -57,23 +69,26 @@
             </div>
         </div>
         <div class="img-container">
-            <img src="./img/trauma.png" alt="Avatar" class="productos_icon" style="width:100%">
+            <img src="./img/11.png" alt="Avatar" class="productos_icon" style="width:100%">
             <div class="center-img-text" onclick="location.href='./productos.html'">
               <div class="img-text">Traumatologia</div>
             </div>
         </div>
         <div class="img-container">
-            <img src="./img/cardio.png" alt="Avatar" class="productos_icon" style="width:100%">
+            <img src="./img/10.png" alt="Avatar" class="productos_icon" style="width:100%">
             <div class="center-img-text" onclick="location.href='./productos.html'">
               <div class="img-text">Cardio</div>
             </div>
         </div>
         </section>
-        <a class="more-products" href="./productos.html" style=" margin-left: 8rem;">Ver mas Productos</a>
-    
+        <br>
+        <article style="text-align: center;">
+          <a class="mas-productos" href="./productos.html">Ver mas Productos</a>
+        </article>
+      <hr class="separador">
     </section>
      
-    <hr class="separador">
+    
 
     <section class="direccion" id="ubicacion">
         <article class="direccion_info">
@@ -92,8 +107,8 @@
     <hr class="separador">
 
     <section class="form_section" id="formContact">
-      <form class="contact" action="" id="contacto">
-        <h2 class="form-title">Formulario de Contacto</h2>
+      <form class="contact" action="" id="contacto" name="Contact" onsubmit="sendEmail('Contact')">
+        <h2 class="form-title">Contacto</h2>
         <div class="botones">
           <buttom class="bt-style" id="bt-workWithUs">Trabajá con Nosotros</buttom>
           <buttom id="bt-contacto" class="bt-style">Contacto</buttom>
@@ -103,6 +118,8 @@
         <input type="text" class="short-text" name="name" required><br>
         <label class="label-input" for="name">Email</label>
         <input type="email" class="short-text" name="name" required><br>
+        <label class="label-input" for="name">Teléfono</label>
+        <input type="number" class="short-text" name="name" required><br>
         <label class="label-input" for="name">Agregá tu Comentario</label>
         <!-- <input type="text" class="long-text" name="name" required> -->
         <textarea class="long-text" name="comment" id="" cols="30" rows="1" wrap="soft"></textarea>
@@ -110,8 +127,8 @@
       </form>
   </section>
 
-  <section class="form_section2" id="formWorkWithUs">
-      <form class="workWithUs contact" onsubmit="sendEmail()">
+  <!-- <section class="form_section2" id="formWorkWithUs">
+      <form class="workWithUs contact" name="WorkWithUs" onsubmit="sendEmail(name)">
           <h2 class="form-title">Trabajá con Nosotros</h2>
           <div class="botones">
               <buttom class="bt-style" id="">Trabajá con Nosotros</buttom>
@@ -120,13 +137,31 @@
             <p id="emailCvWarning">Escriba su email para poder subir su CV</p>
             <label class="label-input2" for="name">Email</label>
             <input id="cv-email" type="email" class="short-text" name="name" required><br>
-           <div id="cvFiles" style="visibility: hidden;">
+           <div id="cvFiles">
                 <label class="label-input2" for="filename">Dejanos tu CV aquí en formato PDF o Word (unico archivo)</label>
                 <input type="file" class="myFile" id="myFile" name="myFile" accept=".pdf,.doc,.docx" onchange="fileHandler(event)"> 
            </div>
           <input type="submit" class="bt-style">
         </form>
-      </section>
+      </section> -->
+
+      <section class="form_section2" id="formWorkWithUs">
+        <form class="workWithUs contact"  name="WorkWithUs" onsubmit="sendEmail(name)">
+            <h2 class="form-title">Trabajá con Nosotros</h2>
+            <div class="botones">
+                <buttom class="bt-style" id="">Trabajá con Nosotros</buttom>
+                <buttom id="bt-contacto2" class="bt-style">Contacto</buttom>
+            </div>
+              <p id="emailCvWarning">Escriba su email para poder subir su CV</p>
+              <label class="label-input2" for="name">Email</label>
+              <input id="cv-email" type="email" class="short-text" name="name" required placeholder="mail@ejemplo.com"><br>
+             <div id="cvFiles" class="file-div">
+                  <label class="label-input2" for="filename">Dejanos tu CV aquí en formato PDF o Word (unico archivo)</label>
+                  <input type="file" class="myFile" id="myFile" name="myFile" accept=".pdf,.doc,.docx" onchange="fileHandler(event)"> 
+             </div>
+            <input type="submit" class="bt-style">
+          </form>
+        </section>
 
     
 
@@ -139,7 +174,7 @@
 
             <div class="">
             <h5 class="mb-4 font-weight-bold text-uppercase">Panima GROUP</h5>
-            <img src="" alt="">LOGO
+            <img src="./img/panimagroup-logo.png" alt="" style="width: 40%;">
             </div>
         </div>
         <div class="column">
@@ -176,7 +211,8 @@
         </div>
     </div>
   </footer>
-  <script src="./js/app.js"></script></script>
+  <script src="./js/app.js"></script>
+  <script src="./js/filter.js"></script>
   <script src="https://smtpjs.com/v3/smtp.js"></script>
   <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"

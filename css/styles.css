@@ -1,3 +1,15 @@
+body {
+  font-family: Arial,sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  overflow-x: hidden;
+  color: #607289;
+  text-decoration: none;
+  letter-spacing: 0.15em;
+}
+
+
+/*NAVEGADOR*/
 .navbar{
   background-color: rgba(129, 220, 129, 0.473);
 } 
@@ -7,35 +19,67 @@
   justify-content: right;
 }
 
+.navbar-brand{
+  width: 14rem;
+}
+
 .navbar-collapse{
   justify-content: right;
 }
 
-body {
-  font-family: Arial,sans-serif;
-  font-weight: 400;
-  font-size: 1rem;
-  overflow-x: hidden;
-  color: #607289;
+.navbar-logo{
+  width: 100%;
+}
+
+
+/*NOSOTROS*/
+.nosotros-section {
+  width: 100%;
+  height: 400px;
+  background-image: url('../img/cirugia-2.png');
+  background-position: 0 400px;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nosotros-texto-section {
+  height: 75%;
+  color: #030929;
+  background-color: rgba(245, 245, 245, 0.445);
+  backdrop-filter: blur(8px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: baseline;
+}
+
+.nosotros-texto-section h2 {
+  margin-top: 0;
+}
+
+.nosotros-parrafo {
+  margin: 0 15rem 0 0;
 }
 
 /* PRODUCTOS */
-.productos-index {
-  background-color: #83F683;
+.productos-index-section {
+  background-color: #83f683b0;
   color: #FFFFFF;
+  width: 100%;
 }
 
-.titulo-productos{
+.titulo-productos {
   margin: 4rem 2rem 1rem 8rem;
-  /* padding-bottom:; */
+  text-transform: uppercase;
 }
 
 .productos-index {
-  width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: center;
-  padding: 0 5rem 0 1rem;
   margin: 0rem 0 0rem 0;
 }
 
@@ -47,7 +91,7 @@ body {
   opacity: 1;
   display: block;
   width: 10rem;
-  height: 11rem;
+  height: 15rem;
   transition: .5s ease;
   backface-visibility: hidden;
   
@@ -81,8 +125,9 @@ body {
   padding: 0.5rem 1rem;
 }
 
-.more-products{
+.mas-productos {
     color: #FFFFFF;
+    text-align: center;
     text-transform: uppercase;
     text-decoration: none;
     letter-spacing: 0.15em;
@@ -96,7 +141,6 @@ body {
 
 .separador{
   margin: 2rem 6rem 2rem 6rem;
-  color: green;
   border-width: 0.2rem;
 }
 
@@ -180,8 +224,6 @@ a:not(.navbar-brand,.nav-link,.mr-4,.btn):hover:after{
   padding-top:2%;
   padding-bottom: 1.5%;
   margin-top: 2rem;
-  border: solid 5px green;
-  
 }
 
 .form-title{
@@ -265,14 +307,37 @@ a:not(.navbar-brand,.nav-link,.mr-4,.btn):hover:after{
 }
 
 .label-input2{
-  /* margin-top: 2rem; */
+  margin-top: 1rem;
   margin-left: 5rem;
+}
+
+.short-text {
+  border: 2px solid #83f683b0;
+  border-radius: 6px;
+  font-family: Arial,sans-serif;
+  font-size: 15px;
+  letter-spacing: 0.15em;
+  padding: 0.3rem;
+}
+
+textarea {
+  border: 2px solid #83f683b0;
+  border-radius: 6px;
+  font-family: Arial,sans-serif;
+  letter-spacing: 0.15em;
+  padding: 0.3rem;
 }
 
 #emailCvWarning{
   margin-top: 2rem;
   margin-left: 5rem;
 }
+
+.file-div {
+  visibility: hidden;
+}
+
+
 
 #myFile{
   margin: 5rem;
@@ -292,6 +357,7 @@ footer {
   column-gap: 10rem;
   justify-content: center;
 }
+
 
 @media (max-width:957px){
   *:not(.img-text){
