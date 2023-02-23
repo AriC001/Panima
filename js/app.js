@@ -76,6 +76,21 @@ emailInput.addEventListener('input', (event) => {
   i++;
   if(i > 4){
     document.querySelector('#cvFiles').style.visibility = "visible"
+    document.querySelector('.myFile').style.cssText = `
+    content: 'Seleccione un archivo';
+    display: inline-block;
+    background: linear-gradient(top, #f9f9f9, #e3e3e3);
+    border: 2px solid #83f683b0;
+    border-radius: 6px;
+    padding: 5px 8px;
+    outline: none;
+    white-space: nowrap;
+    -webkit-user-select: none;
+    cursor: pointer;
+    text-shadow: 1px 1px #fff;
+    font-weight: 700;
+    font-size: 10pt;
+    `
     document.querySelector('#emailCvWarning').style.display = "none"
   }
   
