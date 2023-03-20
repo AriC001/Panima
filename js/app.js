@@ -2,6 +2,8 @@ const btWork = document.querySelector("#bt-workWithUs");
 const btContact = document.querySelector("#bt-contacto2")
 const formContact = document.querySelector(".form_section");
 const formWork = document.querySelector(".form_section2");
+const fileAdd = document.querySelector("#cvFiles");
+const emailInput = document.querySelector('#cv-email');
 
 let control = 0;
 
@@ -16,7 +18,11 @@ btContact.addEventListener('click', () =>{
   formContact.style.visibility = "visible"
   formContact.style.height = "100%";
   formWork.style.visibility = "hidden"
+  fileAdd.style.visibility = "hidden"
   formWork.style.height = "0";
+  if(ValidateEmail(emailInput)==true){
+    document.querySelector('#cvFiles').style.visibility = "visible"
+  }
 }) 
 
 function sendEmail(name){
@@ -70,11 +76,10 @@ let fileHandler = function(e){
 }
 
 
-const emailInput = document.querySelector('#cv-email');
 let i = 0;
 emailInput.addEventListener('input', (event) => {
-  i++;
-  if(i > 4){
+  let valid = ValidateEmail(emailInput)
+ if (valid == true){
     document.querySelector('#cvFiles').style.visibility = "visible"
     document.querySelector('.myFile').style.cssText = `
     content: 'Seleccione un archivo';
@@ -92,9 +97,21 @@ emailInput.addEventListener('input', (event) => {
     font-size: 10pt;
     `
     document.querySelector('#emailCvWarning').style.display = "none"
+  }else{
+    document.querySelector('#cvFiles').style.visibility = "hidden"
   }
   
 });
+
+function ValidateEmail(mail) 
+{
+ if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(mail.value))
+  {
+    return (true)
+  }
+    // alert("You have entered an invalid email address!")
+    return (false)
+}
 
 // function filterAndPage(filtro){
 //   window.location.assign('./productos.html')
