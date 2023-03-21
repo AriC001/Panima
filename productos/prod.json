@@ -1,0 +1,36 @@
+var productosJson = {
+    "prod": [
+        {
+            "titulo": "ANCLAS CON SUTURA Corkscrew®️",
+            "marca": "Arthrex",
+            "img": "./img/img_prod/corkscrew.webp",
+            "desc": "La familia de anclas con sutura Corkscrew completamente roscadas fue diseñada para lograr el máximo de resistencia de fijación e inserción sencilla. El mecanismo utiliza sutura FiberWire®️ para permitir suturas continuas a lo largo del ancla. Este diseño permite que el ancla se inserte al ras de la superficie del hueso cortical proporcionando una excelente resistencia de fijación y estabilidad al mismo que tiempo que impide el efecto “de retroceso” que puede ocurrir en anclajes convencionales con ojales sobresalientes.",
+            "desc-mob": "",
+            "categoria": "trauma"
+        },
+        {
+            "titulo": "ANCLAS CON SUTURA Corkscrew®️",
+            "marca": "Nicolas",
+            "img": "./img/8.png",
+            "desc": "La familia de anclas con sutura Corkscrew completamente roscadas fue diseñada para lograr el máximo de resistencia de fijación e inserción sencilla. El mecanismo utiliza sutura FiberWire®️ para permitir suturas continuas a lo largo del ancla. Este diseño permite que el ancla se inserte al ras de la superficie del hueso cortical proporcionando una excelente resistencia de fijación y estabilidad al mismo que tiempo que impide el efecto “de retroceso” que puede ocurrir en anclajes convencionales con ojales sobresalientes.",
+            "desc-mob": "",
+            "categoria": "cardio"
+        },
+        {
+            "titulo": "ANCLAS CON SUTURA Corkscrew®️",
+            "marca": "Nicolas",
+            "img": "./img/img_prod/corkscrew.webp",
+            "desc": "La familia de anclas con sutura Corkscrew completamente roscadas fue diseñada para lograr el máximo de resistencia de fijación e inserción sencilla. El mecanismo utiliza sutura FiberWire®️ para permitir suturas continuas a lo largo del ancla. Este diseño permite que el ancla se inserte al ras de la superficie del hueso cortical proporcionando una excelente resistencia de fijación y estabilidad al mismo que tiempo que impide el efecto “de retroceso” que puede ocurrir en anclajes convencionales con ojales sobresalientes.",
+            "desc-mob": "",
+            "categoria": "cardio"
+        },
+        {
+            "titulo": "ANCLAS CON SUTURA Corkscrew®️",
+            "marca": "Nicolas",
+            "img": "./img/img_prod/corkscrew.webp",
+            "desc": "La familia de anclas con sutura Corkscrew completamente roscadas fue diseñada para lograr el máximo de resistencia de fijación e inserción sencilla. El mecanismo utiliza sutura FiberWire®️ para permitir suturas continuas a lo largo del ancla. Este diseño permite que el ancla se inserte al ras de la superficie del hueso cortical proporcionando una excelente resistencia de fijación y estabilidad al mismo que tiempo que impide el efecto “de retroceso” que puede ocurrir en anclajes convencionales con ojales sobresalientes.",
+            "desc-mob": "",
+            "categoria": "cardio"
+        },
+    ]
+}
