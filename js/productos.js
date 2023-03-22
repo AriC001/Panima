@@ -8,12 +8,12 @@ function cargarProds(data){
     // console.log(data);
     var div = document.createElement('div');
 
-    div.innerHTML = '<div class="card Neuro" > <img src="'+data.img+'" class="card-img-top" alt="...">' +
+    div.innerHTML = '<div class="card '+data.categoria+'" > <img src="'+data.img+'" class="card-img-top" alt="...">' +
         '<div class="card-body">'+
             '<h5 class="card-title">'+data.titulo+'</h5>'+
             '<h6 class="card-title">'+data.marca+'</h6>'+
             '<p class="card-text">'+data.desc+'</p>'+
-            '<a href="#" class="btn btn-primary">Go somewhere</a>'+
+            '<a href="'+data.descMob+'" target="_blank" class="btn btn-primary">Go somewhere</a>'+
         '</div>'+
     '</div>';
 
