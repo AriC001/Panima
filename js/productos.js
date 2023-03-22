@@ -12,8 +12,8 @@ function cargarProds(data){
         '<div class="card-body">'+
             '<h5 class="card-title">'+data.titulo+'</h5>'+
             '<h6 class="card-title">'+data.marca+'</h6>'+
-            '<p class="card-text">'+data.desc+'</p>'+
-            '<a href="'+data.descMob+'" target="_blank" class="btn btn-primary">Go somewhere</a>'+
+            // '<p class="card-text">'+data.desc+'</p>'+
+            '<a href="./corkscrew.html?id='+data.id+'" class="btn btn-primary" >Go somewhere</a>'+
         '</div>'+
     '</div>';
 
@@ -28,3 +28,7 @@ function cargarProds(data){
 //               <a href="#" class="btn btn-primary">Go somewhere</a>
 //             </div>
 //         </div>
+
+
+
+
