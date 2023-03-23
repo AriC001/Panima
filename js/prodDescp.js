@@ -11,7 +11,10 @@ function productDescripcion(data){
     document.getElementById("imagen").src= data.img;
     document.getElementById("descripcionCorta").innerHTML= data.desc;
     document.getElementById("titulo").innerHTML += data.tituloCorto
-
+    console.log(data.id);
+    if(data.id >= 17){
+        document.getElementById("imagen").style.width = "150%"
+    }
     // div.innerHTML = '<div class="card '+data.categoria+'" > <img src="'+data.img+'" class="card-img-top" alt="...">' +
     //     '<div class="card-body">'+
     //         '<h5 class="card-title">'+data.titulo+'</h5>'+

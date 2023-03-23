@@ -1,3 +1,9 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 body {
   font-family: Arial,sans-serif;
   font-weight: 400;
@@ -15,8 +21,8 @@ body {
 } 
 
 .nav-link, .navbar-brand{
-  color: rgb(19, 113, 0);
-  justify-content: right;
+    color: rgb(19, 113, 0);
+    justify-content: right;
 }
 
 .navbar-brand{

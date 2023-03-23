@@ -7,6 +7,10 @@ h1 {
     text-align: center;
 }
 
+.navbar-dark .navbar-nav .nav-link {
+    color: rgb(19, 113, 0);
+}
+
 /* PRODCUTOS */
 .productos {
     display: flex;
