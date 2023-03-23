@@ -75,9 +75,9 @@ const productosJson = {
             "tituloCorto":"TightRope II",
             "id":"08",
             "marca": "ARTHREX",
-            "img": "./img/img_prod/.webp",
+            "img": "./img/img_prod/acl-tightrope-ii-implant.webp",
             "desc": "As the first adjustable-loop cortical suspensory fixation implant to use a flat SutureTape design, the new ACL TightRope®️ II implant offers better handling characteristics and is more resistant to graft abrasion or tissue pull-through than traditional round sutures.1 Engineered for precise graft tensioning, the adjustable-loop mechanism allows for incremental retensioning of the graft construct after the implants have been secured on the cortex. The redesigned cortical button now incorporates a proprietary knotless fifth locking mechanism, increasing strength and resistance to cyclic displacement.2 To accommodate various graft types and techniques, TightRope II implants are available in RT and BTB configurations loaded with an additional flipping suture or preloaded with a FiberTape®️ suture for the InternalBrace™️ technique. Available options for the ABS implant include standard or open.",
-            "descMob": "https://www.arthrex.com/es/rodilla/acl-tightrope-ii-implant",
+            "descMob": "https://www.arthrex.com/knee/acl-tightrope-ii-implant",
             "categoria": "Cardio"
         },
         {
@@ -155,7 +155,7 @@ const productosJson = {
             "tituloCorto":"SwiveLock",
             "id":"16",
             "marca": "ARTHREX",
-            "img": "./img/img_prod/SwiveLock rodilla.webp",
+            "img": "./img/img_prod/SwiveLock Rodilla.webp",
             "desc": "La línea de productos SwiveLock consiste en anclas sin nudos totalmente roscadas diseñadas para usarse con FiberWire, FiberTape, e injertos de tejido blando en técnicas de reparación y reconstrucción. La tensión es visualizada, ajustada y trabada en posición con el cuerpo del ancla SwiveLock. Las anclas SwiveLock están canuladas y tienen conducto de comunicación para minimizar el material. Las anclas están disponibles en materiales bioabsorbibles BioComposite o PLLA y no absorbibles PEEK o titanio.",
             "descMob": "https://www.arthrex.com/es/rodilla/meniscal-cinch-ii-device",
             "categoria": "Cardio"
