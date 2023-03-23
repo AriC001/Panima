@@ -28,13 +28,6 @@ h1 {
   transition: .5s ease;
   backface-visibility: hidden;
 }
-  .card{
-    flex: 1 0 21%; /* explanation below */
-  margin: 5px;
-  width: 22rem;
-  /* height: 100px; */
-  /* background-color: blue; */
-  }
   
   .center-img-text {
     transition: .5s ease;
@@ -63,19 +56,43 @@ h1 {
     padding: 1rem 2rem;
   }
 
+  .card-img-top {
+    width: 20rem;
+    /* text-align: center; */
+  }
+  /* .card-title{
+    width: 20rem;
+  } */
+  .card-body{
+    width: 20rem;
+    height: 10rem;
+  }
+
 /* FIN PRODUCTOS */
 
 /*Cards productos*/
-.productos-cards {
+/* .productos-cards {
     display: flex;
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
+    gap: 2rem;
+} */
+.card-deck {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2rem;
+
 }
 
 .card {
-    margin: 0.3rem;
+    /* margin: 0.7rem !important; */
     display: none;
+    /* width: 20rem; */
+    /* flex: 1 0 10; explanation below */
+    /* width: 20rem; */
 }
 
 /* Propiedad para mostrar Productos */

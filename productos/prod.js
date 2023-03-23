@@ -160,5 +160,83 @@ const productosJson = {
             "descMob": "https://www.arthrex.com/es/rodilla/meniscal-cinch-ii-device",
             "categoria": "Cardio"
         },
+        {
+            "titulo": "NEUROESTIMULACION PROCLAIM",
+            "tituloCorto":"PROCLAIM",
+            "id":"17",
+            "marca": "ABBOTT",
+            "img": "./img/img_prod/Proclaim.jpg",
+            "desc": "Neuroestimulador, de corriente constante, único en el mercado con capacidad de ofrecer ondas alternativas de estimulación tónica y con ráfagas, de batería no recargable, con 24 programas de estimulación, con sistema Epiducer (para implante de electrodos por punción) o laminectomía (modelo PENTA de 5 columnas y 20 contactos), programador de mano para pacientes”.",
+            "descMob": "https://corpomedica.com.ar/product/49/Proclaim.html",
+            "categoria": "Cardio"
+        },
+        {
+            "titulo": "INFINITY",
+            "tituloCorto":"INFINITY",
+            "id":"18",
+            "marca": "ABBOTT",
+            "img": "./img/img_prod/Infinity.jpg",
+            "desc": "Neurostimulador para tratamiento de Movimientos Anormales (parkinson, temblor esencial, distonia, TOC y epilepsia)."+
+            "- Generador bilateral de corriente constante y de batería no recargable mas pequeño del mercado"+
+            "- Catéter de punta no activa octopolar con tecnología de entrega direccional de la estimulación"+
+            "- Programadores para medico y pacientes sin cables"+
+            "- Posibilidad de programar diferentes frecuencias en cada catéter en un mismo generador"+
+            "- Conexión directa compatible con productos de otras marcas"+
+            "- Tecnología actualizable"+
+            "- Plataforma programable con dispositivos digitales móbiles Apple via Bluetooth"+
+            "- Sistema de fijación de catéter cerebral profundo Guardian",
+            "descMob": "https://corpomedica.com.ar/product/4/Infinity.html",
+            "categoria": "Cardio"
+        },
+        {
+            "titulo": "PRODIGY MRI",
+            "tituloCorto":"PRODIGY MRI",
+            "id":"19",
+            "marca": "ABBOTT",
+            "img": "./img/img_prod/Prodigy MRI.jpg",
+            "desc": "Neuroestimulador, de corriente constante, único en el mercado con capacidad de ofrecer ondas alternativas de estimulación tónica y con ráfagas, de batería recargable, con 24 programas de estimulación",
+            "descMob": "https://corpomedica.com.ar/product/2/Prodigy-MRI.html",
+            "categoria": "Cardio"
+        },
+        {
+            "titulo": "Nit-Occlud® PDA-R",
+            "tituloCorto":"Nit-Occlud",
+            "id":"20",
+            "marca": "PFM",
+            "img": "./img/img_prod/Nit-Occlud PDA-R.webp",
+            "desc": "Nuevo sistema de oclusión de pfm medical, desarrollado específicamente para el cierre transcatéter de DAP (Ductos Arteriosos Persistentes) medios a grandes. La malla metálica de nitinol patentada se moldea en un tubo cilíndrico con un disco de retención. Los parches cosidos en poliéster favorecen la endotelización y aceleran el cierre.",
+            "descMob": "https://www.pfmmedical.com.ar/nit-occlud-pda-r/",
+            "categoria": "Cardio"
+        },
+        {
+            "titulo": "Nit-Occlud® PDA",
+            "tituloCorto":"Nit-Occlud PDA",
+            "id":"21",
+            "marca": "PFM",
+            "img": "./img/img_prod/Nit-Occlud PDA.webp",
+            "desc": "El sistema de oclusión Nit-Occlud® PDA está diseñado para el cierre seguro y atraumático de la cardiopatía congénita de DAP (Ductos Arteriosos Persistentes). El exclusivo diseño de coil (espiral) y su flexibilidad hacen de Nit-Occlud® PDA la elección ideal para el cierre de DAP pequeños a grandes de todos los tipos.",
+            "descMob": "https://www.pfmmedical.com.ar/nit-occlud-pda/",
+            "categoria": "Cardio"
+        },
+        {
+            "titulo": "Nit-Occlud® ASD-R",
+            "tituloCorto":"Nit-Occlud ASD-R",
+            "id":"22",
+            "marca": "ABBOTT",
+            "img": "./img/img_prod/Nit-Occlud ASD-R.webp",
+            "desc": "El sistema de oclusión Nit-Occlud® ASD-R fue desarrollado para la oclusión transcatéter de la comunicación interauricular (ASD). Nit-Occlud® ASD-R es el miembro más reciente de la creciente familia de oclusores médicos de pfm medical y también se fabrica de un solo alambre de nitinol, resultando en un perfil muy bajo. El oclusor consta de dos discos con membranas de poliéster.",
+            "descMob": "https://www.pfmmedical.com.ar/nit-occlud-asd-r/",
+            "categoria": "Cardio"
+        },
+        {
+            "titulo": "Nit-Occlud® PFO",
+            "tituloCorto":"Nit-Occlud PFO",
+            "id":"23",
+            "marca": "ABBOTT",
+            "img": "./img/img_prod/Nit-Occlud PFO.webp",
+            "desc": "El oclusor Nit-Occlud® PFO representa a una nueva generación de sistemas de oclusión, que conducen a un óptimo desempeño y cierre efectivo. Nit-Occlud® PFO es un oclusor de doble paraguas con membranas de dacrón en un diseño exclusivo: El oclusor está tejido de un único alambre de Nitinol. Por ende su implante es mínimamente invasivo y sin abrazaderas sobresalientes.",
+            "descMob": "https://www.pfmmedical.com.ar/nit-occlud-pfo/",
+            "categoria": "Cardio"
+        },
     ]
 }

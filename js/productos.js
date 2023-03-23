@@ -8,12 +8,14 @@ function cargarProds(data){
     // console.log(data);
     var div = document.createElement('div');
 
-    div.innerHTML = '<div class="card '+data.categoria+'" > <img src="'+data.img+'" class="card-img-top" alt="...">' +
+    div.innerHTML = '<div class="card h-100 '+data.categoria+'" > <img src="'+data.img+'" class="card-img-top" alt="...">' +
         '<div class="card-body">'+
             '<h5 class="card-title">'+data.titulo+'</h5>'+
             '<h6 class="card-title">'+data.marca+'</h6>'+
             // '<p class="card-text">'+data.desc+'</p>'+
-            '<a href="./corkscrew.html?id='+data.id+'" class="btn btn-primary" >Go somewhere</a>'+
+        '</div>'+
+        '<div class="card-footer">'+
+        '<small class="text-muted"><a href="./corkscrew.html?id='+data.id+'" >VER MÁS</a></small>'+
         '</div>'+
     '</div>';
 
