@@ -15,7 +15,7 @@ function cargarProds(data){
             // '<p class="card-text">'+data.desc+'</p>'+
         '</div>'+
         '<div class="card-footer">'+
-        '<small class="text-muted"><a href="./corkscrew.html?id='+data.id+'" >VER MÁS</a></small>'+
+        '<small class="text-muted"><a href="./detalle.html?id='+data.id+'" >VER MÁS</a></small>'+
         '</div>'+
     '</div>';
 
