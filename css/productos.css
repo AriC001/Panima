@@ -110,7 +110,7 @@ h1 {
   justify-content: center;
 }
 
-@media only screen and (max-width: 360px){
+@media only screen and (max-width: 380px){
     .card {
         width: 12rem;
     }
