@@ -394,7 +394,7 @@ footer {
   }
 }
 
-@media only screen and (max-width: 360px){
+@media only screen and (max-width: 380px){
     /*NOSOTROS*/
     .nosotros-section {
         width: 100%;
