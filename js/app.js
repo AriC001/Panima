@@ -134,6 +134,10 @@ function ValidateEmail(mail)
     return (false)
 }
 
+function navBarCollapse(){
+  document.getElementById("navbarNav").className = "navbar-collapse collapse"
+}
+
 // function filterAndPage(filtro){
 //   window.location.assign('./productos.html')
 //   filterSelection(filtro)

@@ -375,7 +375,7 @@ footer {
 
 @media (max-width:957px){
   *:not(.img-text){
-    font-size: small;
+    font-size: medium;
   }
 
   .img-text {
@@ -388,11 +388,25 @@ footer {
     opacity: 1;
     display: block;
     width: 5rem;
-    height: 8rem;
+    height: 12rem;
     transition: .5s ease;
     backface-visibility: hidden;
   }
 }
+
+@media (max-width:720px){
+ 
+  .productos_icon {
+    /* opacity: 1;
+    display: block;
+    width: 5rem; */
+    height: 10rem;
+    /* transition: .5s ease;
+    backface-visibility: hidden; */
+  }
+}
+
+
 
 @media only screen and (max-width: 390px){
     /*NOSOTROS*/
