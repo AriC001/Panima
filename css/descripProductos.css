@@ -51,7 +51,10 @@
     width: 80%;
     /* text-align: center; */
 }
-
+.owl-stage{
+    display: flex;
+    justify-content: center;
+}
 
 @media only screen and (max-width: 655px){
     *:not(h2){
