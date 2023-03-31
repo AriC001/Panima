@@ -219,6 +219,7 @@ a:not(.navbar-brand,.nav-link,.mr-4,.btn):hover:after{
   justify-content: center;
   padding-bottom: 4%;
 }
+
 .contact{
   width:50%;
   display:flex;
@@ -349,23 +350,44 @@ textarea {
 
 /* Fin Formularios */
 
-
-footer {
-  background: #ebf4fa;
+/*FOOTER*/
+.footer{
+    background: #ebf4fa;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    column-gap: 10rem;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
 }
 
-.column{
-  display: flex;
-  column-gap: 10rem;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
+.footer_img {
+    width: 80%;
+    margin-top: 2.5rem;
 }
 
-.footer-img {
-    width: 80%; 
-    margin-top: 3.5rem;
+.footer article {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    row-gap: 2rem;
+}
+
+.footer_sections {
+    display: flex;
+    flex-direction: row;
+    column-gap: 10rem;
+    justify-content: center;
+    align-content: center;
+}
+
+.footer_img_div {
+    display: flex;
+    justify-content: center;
 }
 
 @media only screen and (max-width: 420px){
@@ -477,17 +499,9 @@ footer {
     }
 
     /*FOOTER*/
-    .footer-img-div {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .footer-img {
-        margin-top: 0;
-    }
-  
+    .footer_sections {
+        column-gap: 4rem;
+    }  
 }
 
 @media screen and (max-width: 980px) and (min-width: 421px) {
@@ -583,28 +597,44 @@ footer {
         margin: 0;
     }
 
+    /*PROD*/
+    .productos_icon {
+        height: 10rem;
+    }
+
     /*FOOTER*/
-    footer {
+    .footer article {
         background: #ebf4fa;
-      }
-      
-      .column{
-        display: flex;
-        column-gap: 10rem;
-        flex-wrap: wrap;
-        justify-content: center;
+        flex-wrap: nowrap;
         align-items: center;
         align-content: center;
       }
       
-      .footer-img {
-          width: 80%; 
-          margin-top: 3.5rem;
-      }
+    .footer_sections {
+        column-gap: 4rem;
+    }
+
+    .footer_img {
+        width: 80%;
+    }
 }
 
 @media only screen and (min-width: 1000px) {
     * {
-        font-size: 20px;
+        font-size: 18px;
+    }
+
+    .footer article {
+        flex-direction: row;
+        row-gap: 2rem;
+        margin-top: 2rem;
+    }
+
+    .footer_sections {
+        column-gap: 6rem;
+    }
+
+    .footer article {
+        flex-wrap: nowrap;
     }
 }
