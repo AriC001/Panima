@@ -7,6 +7,7 @@ productosJson.prod.forEach((i) => cargarProds(i)) ;
 function cargarProds(data){
     // console.log(data);
     var div = document.createElement('div');
+    div.className="card-prodcutos"
 
     div.innerHTML = '<div class="card h-100 '+data.categoria+'" > <img src="'+data.img+'" class="card-img-top" alt="...">' +
         '<div class="card-body">'+

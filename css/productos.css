@@ -96,6 +96,9 @@ h1 {
     /* flex: 1 0 10; explanation below */
     /* width: 20rem; */
 }
+.card-deck{
+  margin: 0 1.5rem;
+}
 
 /* Propiedad para mostrar Productos */
 .show{
@@ -125,4 +128,100 @@ h1 {
     }
 
     
+}
+
+@media only screen and (max-width: 1100px){
+  .card-title{
+    font-size: small;
+    
+  }
+
+  .img-text{
+    padding: 0rem 0rem;
+  }
+
+  .card-body{
+    width: fit-content;
+    /* block-size: fit-content; */
+  }
+
+  .card-productos {
+    width: fit-content;
+    block-size: fit-content;
+      width: auto;
+      height: auto;
+      
+
+  }
+  .card {
+    width: fit-content;
+    block-size: fit-content;
+    width: 15rem;
+    /* height: 5rem; */
+}
+  .card-img-top{
+    width: fit-content;
+    block-size: fit-content;
+    width: 15rem;
+  }
+  /* .card-img-top {
+      width: 12rem;
+  }
+
+  .card-body{
+      width: 12rem;
+      height: 8rem;
+  } */
+
+  
+}
+
+@media only screen and (max-width: 655px){
+  a,h1{
+    font-size: small;
+  }
+  .center-img-text{
+
+  }
+  .card-deck{
+    column-gap: 1rem;
+  }
+  .card-title{
+    font-size: smaller;
+  }
+  .card-body{
+    width: fit-content;
+    /* block-size: fit-content; */
+  }
+
+  .card-productos {
+    width: fit-content;
+    block-size: fit-content;
+      width: auto;
+      height: auto;
+  }
+  .card {
+    width: fit-content;
+    block-size: fit-content;
+    width: 10rem;
+    /* height: 5rem; */
+}
+  .card-img-top{
+    width: fit-content;
+    block-size: fit-content;
+    width: 10rem;
+  }
+  .card-deck .card {
+    margin-bottom: 0px;
+  }
+} 
+
+@media only screen and (max-width: 433px){
+  .card-deck{
+    margin: 0 0.5rem;
+    column-gap: 0.5rem;
+  }
+  .center-img-text{
+
+  }
 }
