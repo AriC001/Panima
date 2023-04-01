@@ -11,7 +11,7 @@ const productosJson = {
             "categoria": "Trauma"
         },
         {
-            "titulo": "Ancla con sutura FASTak™️",
+            "titulo": "ANCLAS CON SUTURA FASTak™️",
             "tituloCorto":"FASTak",
             "id":"02",
             "marca": "ARTHREX",
@@ -21,7 +21,7 @@ const productosJson = {
             "categoria": "Trauma"
         },
         {
-            "titulo": "ANCLAS CON SUTURA SIN NUDO SwiveLock®️ para labrum",
+            "titulo": "ANCLAS CON SUTURA SIN NUDO SwiveLock®️",
             "tituloCorto":"SwiveLock",
             "id":"03",
             "marca": "ARTHREX",
@@ -51,7 +51,7 @@ const productosJson = {
             "categoria": "Trauma"
         },
         {
-            "titulo": "FIJACION DE INJERTOS Tornillos de Biointerferencia",
+            "titulo": "FIJACION DE INJERTOS de Biointerferencia",
             "tituloCorto":"Biointerferencia",
             "id":"06",
             "marca": "ARTHREX",
@@ -61,7 +61,7 @@ const productosJson = {
             "categoria": "Trauma"
         },
         {
-            "titulo": "FIJACION DE INJERTOS Tornillos de interferencia BioComposite",
+            "titulo": "FIJACION DE INJERTOS de interferencia BioComposite",
             "tituloCorto":"BioComposite",
             "id":"07",
             "marca": "ARTHREX",
@@ -101,7 +101,7 @@ const productosJson = {
             "categoria": "Trauma"
         },
         {
-            "titulo": "TransFix de BioComposite®️",
+            "titulo": "TransFix BioComposite®️",
             "tituloCorto":"BioComposite",
             "id":"11",
             "marca": "ARTHREX",
@@ -131,7 +131,7 @@ const productosJson = {
             "categoria": "Trauma"
         },
         {
-            "titulo": "FIJACION OSTEOCONDREAL OATS®️ para autoinjerto",
+            "titulo": "FIJACION OSTEOCONDREAL OATS®️",
             "tituloCorto":"OATS",
             "id":"14",
             "marca": "ARTHREX ",
